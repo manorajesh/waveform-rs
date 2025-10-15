@@ -44,7 +44,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     tracing::info!("Saving output image...");
-    new_luma.save("output.png")?;
+    out.save("output.png")?;
 
     Ok(())
 }
